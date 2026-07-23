@@ -1,8 +1,29 @@
 aid: attuned-intelligence
 name: Attuned Intelligence
-description: 'Attuned Intelligence is a company surfaced as a portfolio company of threshold-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Attuned Intelligence is a healthcare voice AI company that automates hospital and
+  community health center call centers with supervised, EHR-integrated Voice AI Agents.
+  Its agents answer every patient call instantly and in the caller's language, resolve
+  needs end-to-end (appointment booking, medication refills, triage routing), and provide
+  real-time human oversight with transcripts and reporting so automation stays safe and
+  auditable. Founded in 2024 by leaders from DeepMind, Google Health, AssemblyAI, and
+  DocuSign, the company emerged from stealth in October 2025 with $13M in funding backed
+  by Threshold Ventures, and serves customers including Cambridge Health Alliance and Lowell
+  Community Health Center. The platform is SOC 2 and HIPAA compliant. Attuned publishes no
+  first-party developer/product API; its Wix-hosted marketing site exposes a generic hosted
+  Site MCP endpoint for agentic access to public site content and business details.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/99000f_690ca5256d704e37a71772baed21a4b6~mv2.png
 url: https://raw.githubusercontent.com/api-evangelist/attuned-intelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai
+- Healthcare
+- Voice AI
+- Call Center Automation
+- EHR Integration
+- Conversational AI
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,29 @@ maintainers:
 common:
 - type: Website
   url: https://www.attuned-intelligence.com/
+- type: Blog
+  url: https://www.attuned-intelligence.com/blog
+- type: Support
+  url: https://www.attuned-intelligence.com/faqs
+- type: PrivacyPolicy
+  url: https://www.attuned-intelligence.com/privacy-policy
+- type: TermsOfService
+  url: https://www.attuned-intelligence.com/terms-and-conditions
+- type: Careers
+  url: https://www.attuned-intelligence.com/careers
+- type: MCPServer
+  name: Attuned Intelligence Site MCP (Wix)
+  url: mcp/attuned-intelligence-mcp.yml
+- type: LLMsTxt
+  url: llms/attuned-intelligence-llms.txt
+- type: Conformance
+  url: conformance/attuned-intelligence-conformance.yml
+- type: Compliance
+  url: https://www.attuned-intelligence.com/
+- type: DomainSecurity
+  url: security/attuned-intelligence-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

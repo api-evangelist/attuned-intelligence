@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.attuned-intelligence.com/
+notes: >-
+  Attuned Intelligence publishes no OpenAPI or developer surface, so cross-cutting
+  API standards (oauth2, rfc9457, pagination, etc.) cannot be asserted. What the
+  provider DOES publish, site-wide, is a healthcare compliance posture: SOC 2 and
+  HIPAA. The privacy policy additionally references HIPAA Business Associate
+  Agreements (BAA). Captured from the provider's own marketing pages.
+standards:
+  - id: soc2
+    conforms: true
+    evidence: "SOC 2 stated site-wide (homepage, about-us, faqs, terms-and-conditions)"
+  - id: hipaa
+    conforms: true
+    evidence: "HIPAA stated site-wide; privacy-policy references Business Associate Agreement (BAA)"
+  - id: oauth2
+    conforms: false
+    evidence: "no published API / securitySchemes"
+  - id: rfc9457-problem-details
+    conforms: false
+    evidence: "no published API"
+compliance_pages:
+  - https://www.attuned-intelligence.com/
+  - https://www.attuned-intelligence.com/privacy-policy
