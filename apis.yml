@@ -12,6 +12,17 @@ description: >-
   Community Health Center. The platform is SOC 2 and HIPAA compliant. Attuned publishes no
   first-party developer/product API; its Wix-hosted marketing site exposes a generic hosted
   Site MCP endpoint for agentic access to public site content and business details.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
