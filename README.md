@@ -64,6 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Attuned Intelligence is a company surfaced as a portfolio company of threshold-ventures and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Attuned Intelligence is a healthcare voice AI company that automates hospital and community health center call centers with supervised, EHR-integrated Voice AI Agents. Its agents answer every patient call instantly and in the caller's language, resolve needs end-to-end (appointment booking, medication refills, triage routing), and provide real-time human oversight with transcripts and reporting so automation stays safe and auditable. Founded in 2024 by leaders from DeepMind, Google Health, AssemblyAI, and DocuSign, the company emerged from stealth in October 2025 with $13M in funding backed by Threshold Ventures, and serves customers including Cambridge Health Alliance and Lowell Community Health Center. The platform is SOC 2 and HIPAA compliant. Attuned publishes no first-party developer/product API; its Wix-hosted marketing site exposes a generic hosted Site MCP endpoint for agentic access to public site content and business details.
 
-Backed by: threshold-ventures — https://www.attuned-intelligence.com/
+**Areas:** Company · Artificial Intelligence · Healthcare · Voice AI · Call Center Automation · EHR Integration · Conversational AI · HIPAA
+
+## Attuned Intelligence on APIs.io
+
+Everything profiled for Attuned Intelligence is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/attuned-intelligence/](https://apis.io/providers/attuned-intelligence/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [attuned-intelligence-site](https://apis.io/servers/attuned-intelligence/attuned-intelligence-site/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Attuned Intelligence Domain Security](https://apis.io/security/attuned-intelligence/attuned-intelligence-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.attuned-intelligence.com/)
+- [Support](https://www.attuned-intelligence.com/faqs)
+- [Blog](https://www.attuned-intelligence.com/blog)
+- [Compliance](https://www.attuned-intelligence.com/)
+- [Terms of service](https://www.attuned-intelligence.com/terms-and-conditions)
+- [Privacy policy](https://www.attuned-intelligence.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
+
+**Agent readiness 2.2** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | platform (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/attuned-intelligence/](https://apis.io/providers/attuned-intelligence/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Attuned Intelligence: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/attuned-intelligence/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
